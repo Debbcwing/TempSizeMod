@@ -47,6 +47,7 @@ $$\psi_{max}(S_j^Z) = \beta_{I_{max}}\cdot (S_j^Z)^{\alpha_{\psi_{max}}}$$
 $$P_{opt}(S_i^P, S_j^Z) = \beta_{P_{opt}}\cdot (S_j^Z)^{\alpha_{P_{opt}}}$$
 
 <br/>
+
 representing, respectively, maximum growth rate, $\mu_{max}(S_i^P)$, for phytoplankton size class $i$, and maximum ingestion rate, $I_{max}(S_j^Z)$, and optimal prey size, $P_{opt}(S_i^P, S_j^Z)$, for zooplankton size class $j$.
 
 <br/><br/>
@@ -66,6 +67,8 @@ Using the standard model, we conduct two numerical experiments:<br/>
 
 For details, please refer to the related publication of this model (under review).
 
+## Data repository
+To, S. W., Chakraborty, S., Acevedo-Trejos, E., Pomati, F., & Merico, A. (2025). Future inorganic nutrient and plankton dynamics in a temperate lake. https://doi.org/10.5281/zenodo.14802352
 
 <br/><br/><br/><br/><br/><br/>
 Reference:
