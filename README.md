@@ -16,25 +16,27 @@ Phytoplankton growth and zooplankton grazing are size-dependent. The depth of th
 
 
 The model focuses on capturing size-dependent bottom-up and top-down interactions through data-driven allometric relationships between phytoplankton growth and zooplankton grazing. In this study, the allometric parameters are calibrated against lake-specific data within the reported ranges (Hansen et al. 1994, 1997; Edwards et al. 2012). For this study, the model aims at capturing nutrient and plankton dynamics in a Swiss lake, Greifensee, followed by projecting changes to these dynamics based on IPCC reported climate change scenarios (RCPs). Alternatively, the model can be used to study changes in the size compositions of lake phytoplankton communities under varying temperature and nutrient conditions. 
-
 <br/>
+
 ## Temperature dependence in the model
 The temperature dependence for phytoplankton growth follows a bell-shaped thermal tolerance curve, given by,
 
 
-$$E(T) = e^{0.063T}  \left[1- \left(\frac{T-T_{opt}}{\sigma_T}\right)^2 \right] $$,
+$$E(T) = e^{0.063T}  \left[1- \left(\frac{T-T_{opt}}{\sigma_T}\right)^2 \right] $$
 
 <br/>
 where $T$ is the ambient lake water surface temperature (LWST), $T_{opt}$ is the thermal optima that determines the median of the curve, and $\sigma_T$ is the thermal tolerance that determines the width of the curve. In this study, we assume a community mean thermal tolerance curve to all phytoplankton size classes.
 
 The maximum ingestion rates of zooplankton follows a Q10 model such that, the maximum grazing increases with temperature. The equation for the dependence is,
 
-$$I_{max}(S_j^Z) \cdot Q_{10}^{\frac{T-T_{ref}}{10}}$$.
+$$I_{max}(S_j^Z) \cdot Q_{10}^{\frac{T-T_{ref}}{10}}$$
+
 
 <br/>
 The Q10 temperature coefficient here specifies the amount of maximum ingestion rate increases with a 10 $^{\circ}$ C temperature increase. It describes the sensitivity of zooplankton response to a higher temperature. $T$ refers to the lake temperature, while $T_{ref}$ refers to the reference temperature when the rate is equal to the baseline rate (i.e. no effects from temperature).
 
-<br/><br/>
+<br/>
+
 ## Allometric relationships in the model
 The model comprises of three allometric equations. These allometries allow an ecological trade-off to arise in the model based on water temperature throughout the year. The small phytoplantkon can grow faster than the large phytoplankton, but are subject to stronger grazing from the smaller zooplankton, who will selectively graze on the small cells. 
 
@@ -49,21 +51,22 @@ $$P_{opt}(S_i^P, S_j^Z) = \beta_{P_{opt}}\cdot (S_j^Z)^{\alpha_{P_{opt}}}$$
 <br/>
 
 representing, respectively, maximum growth rate, $\mu_{max}(S_i^P)$, for phytoplankton size class $i$, and maximum ingestion rate, $I_{max}(S_j^Z)$, and optimal prey size, $P_{opt}(S_i^P, S_j^Z)$, for zooplankton size class $j$.
+<br/>
 
-<br/><br/>
 ## Model calibration
 We fine-tuned selected parameters against the time-averaged plankton data collected from lake Greifensee, consisting plankton size (bio-area) and abundance (ROI/sec). For details, please refer to the related publication of this model (under review). After calibrating the parameter values, we obtained a best-fit model that reflect the current average state of the lake.
+<br/>
 
-
-<br/><br/>
 ## Experiments
 Using the standard model, we conducted two numerical experiments:<br/>
 1. a projection based on Representative Climate Pathways (RCPs) issued by IPCC
 2. a sensitivity analysis for the two thermal traits, $T_{opt}$ and $\sigma_T$ in different warming (i.e., RCP by IPCC) scenarios
+<br/>
 
 ## Supplementary tests
 - a sensitivity test for the model parameters for the standard model run
 - a sensitivity run for varying lake mixing parameters for the worst warming scenario
+<br/>
 
 ## Getting Started
 1. Clone the repository or extract the Zenodo zip file.
@@ -73,10 +76,11 @@ Using the standard model, we conducted two numerical experiments:<br/>
 5. Run the analysis: `python Models/FinalMod/FinalMod_run.py`
 
 For details, please refer to the related publication of this model (under review).
+<br/>
 
 ## Data repository
 To, S. W., Chakraborty, S., Acevedo-Trejos, E., Pomati, F., & Merico, A. (2025). Future inorganic nutrient and plankton dynamics in a temperate lake. https://doi.org/10.5281/zenodo.14802352
-
+<br/>
 
 ## License
 The data files in this directory are distributed under the Creative Commons Attribution 4.0 International License (CC-BY-4.0). 
@@ -86,7 +90,7 @@ You are free to share and adapt this data for any purpose, provided you give app
 For the full legal code, visit: https://creativecommons.org
 
 
-<br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/>
 Reference:
 + Acevedo-Trejos, E., E. Marañón, and A. Merico. 2018. Phytoplankton size diversity and ecosystem   function relationships across oceanic regions. Proc. R. Soc. B. 285: 20180621. doi:10.1098/rspb.2018.0621
 + Armstrong, R. A. 1994. Grazing limitation and nutrient limitation in marine ecosystems: Steady state solutions of an ecosystem model with multiple food chains. Limnol. Oceanogr. 39: 597–608. doi:10.4319/lo.1994.39.3.0597
