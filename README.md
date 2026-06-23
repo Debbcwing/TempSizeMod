@@ -75,7 +75,44 @@ Using the standard model, we conducted two numerical experiments:<br/>
 4. Install packages: `pip install -r requirements.txt`
 5. Run the analysis: `python Models/FinalMod/FinalMod_run.py`
 
-For details, please refer to the related publication of this model (under review).
+## Model run
+To run the model, one needs the model script `FinalMod_Sbm.py` and the model run script `FinalMod_run.py`.
+<br/>
+
+- #### FinalMod_Sbm.py
+This is the file containing the size-based NPZD model. The default parameter values are coded in the model.
+<br/>
+
+- #### FinalMod_run.py
+In the run script, one could adjust the number of year and of phytoplankton size classes according to their own preferences.
+````
+Pnum = 10      # specify the nos of phytoplankton size groups
+Ynum = 10       # no. of modelling year
+````
+
+To change model parameter values from the default values, one enters their preferred values in below lines.
+````
+sol = SizeModLogspace(mld=mld_run, par=PAR_run, sst=LWST_run, dmdt=dmdt_run, N0=N0, numP=Pnum, numYears=Ynum).solution
+````
+For example, if one wants to change remineralization rate to 0.5, please input it as
+````
+sol = SizeModLogspace(mld=mld_run, par=PAR_run, sst=LWST_run, dmdt=dmdt_run, N0=N0, numP=Pnum, numYears=Ynum, Rem=0.5).solution
+````
+or if one wants to change the parameters that determine the allometric relationships for $\mu_{max}$ i.e. $\alpha_{\mu_{max}}$ to 0.25, 
+````
+sol = SizeModLogspace(mld=mld_run, par=PAR_run, sst=LWST_run, dmdt=dmdt_run, N0=N0, numP=Pnum, numYears=Ynum, mu_alpha=0.25).solution
+````
+
+The coding name for the parameters can be found in `FinalMod_Sbm.py`.
+<br/>
+
+- #### FinalMod_proj.py
+In this script one can run a number of projection sceanrios, i.e. linear (or, non-linear depending on the input forcing) increase in temperature.
+If one wants to configure the increase in temperature by their own preferred values, or adjust the number of scenarios, please change at the below line:
+````
+temp_incr = [0, 1.4, 2.5, 4.2]
+````
+
 <br/>
 
 ## Data repository
@@ -89,8 +126,9 @@ You are free to share and adapt this data for any purpose, provided you give app
 
 For the full legal code, visit: https://creativecommons.org
 
+For details, please refer to the related publication of this model (under review).
 
-<br/><br/><br/><br/>
+<br/><br/><br/>
 Reference:
 + Acevedo-Trejos, E., E. Marañón, and A. Merico. 2018. Phytoplankton size diversity and ecosystem   function relationships across oceanic regions. Proc. R. Soc. B. 285: 20180621. doi:10.1098/rspb.2018.0621
 + Armstrong, R. A. 1994. Grazing limitation and nutrient limitation in marine ecosystems: Steady state solutions of an ecosystem model with multiple food chains. Limnol. Oceanogr. 39: 597–608. doi:10.4319/lo.1994.39.3.0597
