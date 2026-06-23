@@ -77,6 +77,15 @@ For details, please refer to the related publication of this model (under review
 ## Data repository
 To, S. W., Chakraborty, S., Acevedo-Trejos, E., Pomati, F., & Merico, A. (2025). Future inorganic nutrient and plankton dynamics in a temperate lake. https://doi.org/10.5281/zenodo.14802352
 
+
+## License
+The data files in this directory are distributed under the Creative Commons Attribution 4.0 International License (CC-BY-4.0). 
+
+You are free to share and adapt this data for any purpose, provided you give appropriate credit to the original authors and provide a link to the license.
+
+For the full legal code, visit: https://creativecommons.org
+
+
 <br/><br/><br/><br/><br/><br/>
 Reference:
 + Acevedo-Trejos, E., E. Marañón, and A. Merico. 2018. Phytoplankton size diversity and ecosystem   function relationships across oceanic regions. Proc. R. Soc. B. 285: 20180621. doi:10.1098/rspb.2018.0621
