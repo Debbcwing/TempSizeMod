@@ -65,6 +65,13 @@ Using the standard model, we conducted two numerical experiments:<br/>
 - a sensitivity test for the model parameters for the standard model run
 - a sensitivity run for varying lake mixing parameters for the worst warming scenario
 
+## Getting Started
+1. Clone the repository or extract the Zenodo zip file.
+2. Create a virtual environment: `python -m venv .venv`
+3. Activate it: `source .venv/bin/activate` (or `.venv\Scripts\activate` on Windows)
+4. Install packages: `pip install -r requirements.txt`
+5. Run the analysis: `python Models/FinalMod/FinalMod_run.py`
+
 For details, please refer to the related publication of this model (under review).
 
 ## Data repository
