@@ -1,0 +1,635 @@
+{
+  "access": {
+    "embargo": {
+      "active": false,
+      "reason": null
+    },
+    "files": "public",
+    "record": "public",
+    "status": "open"
+  },
+  "created": "2026-06-23T12:05:07.874494+00:00",
+  "custom_fields": {
+    "code:codeRepository": "https://github.com/systemsecologygroup/TempSizeMod",
+    "code:developmentStatus": {
+      "id": "active",
+      "title": {
+        "en": "Active"
+      }
+    },
+    "code:programmingLanguage": [
+      {
+        "id": "python",
+        "title": {
+          "en": "Python"
+        }
+      }
+    ],
+    "journal:journal": {
+      "title": "Future warming reshapes inorganic nutrient and plankton dynamics in a temperate lake"
+    }
+  },
+  "deletion_status": {
+    "is_deleted": false,
+    "status": "P"
+  },
+  "files": {
+    "count": 9,
+    "default_preview": "README.md",
+    "enabled": true,
+    "entries": {
+      "FinalMod_Sbm.py": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:c108a9a1658f1864056231e2b5563166",
+        "ext": "py",
+        "id": "2e3172f9-fb5a-4d0a-ae10-81b1b4ca9e0c",
+        "key": "FinalMod_Sbm.py",
+        "links": {
+          "content": "https://zenodo.org/api/records/20811713/files/FinalMod_Sbm.py/content",
+          "self": "https://zenodo.org/api/records/20811713/files/FinalMod_Sbm.py"
+        },
+        "metadata": {},
+        "mimetype": "text/x-python",
+        "size": 14446,
+        "storage_class": "L"
+      },
+      "FinalMod_proj.py": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:6bb9e4819e2b3fec34d08779af4dae03",
+        "ext": "py",
+        "id": "1236f0a6-8848-4a6f-a3e2-0f6ca64de06a",
+        "key": "FinalMod_proj.py",
+        "links": {
+          "content": "https://zenodo.org/api/records/20811713/files/FinalMod_proj.py/content",
+          "self": "https://zenodo.org/api/records/20811713/files/FinalMod_proj.py"
+        },
+        "metadata": {},
+        "mimetype": "text/x-python",
+        "size": 3192,
+        "storage_class": "L"
+      },
+      "FinalMod_run.py": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:a92edeb11641d32206f01196cbb89c1d",
+        "ext": "py",
+        "id": "5e8bc793-a014-42a2-b349-f2d083b9dc04",
+        "key": "FinalMod_run.py",
+        "links": {
+          "content": "https://zenodo.org/api/records/20811713/files/FinalMod_run.py/content",
+          "self": "https://zenodo.org/api/records/20811713/files/FinalMod_run.py"
+        },
+        "metadata": {},
+        "mimetype": "text/x-python",
+        "size": 2928,
+        "storage_class": "L"
+      },
+      "README.md": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:1cc286094b9d1c7ffb651a6b14656862",
+        "ext": "md",
+        "id": "f43475c9-935c-46e5-8caf-c045aef82c60",
+        "key": "README.md",
+        "links": {
+          "content": "https://zenodo.org/api/records/20811713/files/README.md/content",
+          "self": "https://zenodo.org/api/records/20811713/files/README.md"
+        },
+        "metadata": {},
+        "mimetype": "application/octet-stream",
+        "size": 16225,
+        "storage_class": "L"
+      },
+      "TSM_MLDForcing.py": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:4f7c93032e75636fcb2088f54f480472",
+        "ext": "py",
+        "id": "7635080e-fb04-49a7-b99f-c5e5040d4041",
+        "key": "TSM_MLDForcing.py",
+        "links": {
+          "content": "https://zenodo.org/api/records/20811713/files/TSM_MLDForcing.py/content",
+          "self": "https://zenodo.org/api/records/20811713/files/TSM_MLDForcing.py"
+        },
+        "metadata": {},
+        "mimetype": "text/x-python",
+        "size": 3186,
+        "storage_class": "L"
+      },
+      "TSM_PARForcing.py": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:00cca8b1c0a0bcff709517650657d8e8",
+        "ext": "py",
+        "id": "40ff9f63-7100-47bf-9161-f12359a10ef1",
+        "key": "TSM_PARForcing.py",
+        "links": {
+          "content": "https://zenodo.org/api/records/20811713/files/TSM_PARForcing.py/content",
+          "self": "https://zenodo.org/api/records/20811713/files/TSM_PARForcing.py"
+        },
+        "metadata": {},
+        "mimetype": "text/x-python",
+        "size": 3567,
+        "storage_class": "L"
+      },
+      "TSM_PlanktonData.py": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:70a0e65014b97002a86a8fdb601f6379",
+        "ext": "py",
+        "id": "8a0abdc1-4b3c-4f87-b803-9652cf406a42",
+        "key": "TSM_PlanktonData.py",
+        "links": {
+          "content": "https://zenodo.org/api/records/20811713/files/TSM_PlanktonData.py/content",
+          "self": "https://zenodo.org/api/records/20811713/files/TSM_PlanktonData.py"
+        },
+        "metadata": {},
+        "mimetype": "text/x-python",
+        "size": 12023,
+        "storage_class": "L"
+      },
+      "TSM_TempForcing.py": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:7a7f879b58f2f3c67d93c62f02869c55",
+        "ext": "py",
+        "id": "fd0627df-9651-4337-9151-ecee21d48f76",
+        "key": "TSM_TempForcing.py",
+        "links": {
+          "content": "https://zenodo.org/api/records/20811713/files/TSM_TempForcing.py/content",
+          "self": "https://zenodo.org/api/records/20811713/files/TSM_TempForcing.py"
+        },
+        "metadata": {},
+        "mimetype": "text/x-python",
+        "size": 3146,
+        "storage_class": "L"
+      },
+      "requirements.txt": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:79cfe67b2cf0328a0cc2006ec3ed2e04",
+        "ext": "txt",
+        "id": "c0fe6050-0fcd-44f7-9f54-84096795e01c",
+        "key": "requirements.txt",
+        "links": {
+          "content": "https://zenodo.org/api/records/20811713/files/requirements.txt/content",
+          "self": "https://zenodo.org/api/records/20811713/files/requirements.txt"
+        },
+        "metadata": {},
+        "mimetype": "text/plain",
+        "size": 36,
+        "storage_class": "L"
+      }
+    },
+    "order": [],
+    "total_bytes": 58749
+  },
+  "id": "20811713",
+  "is_draft": false,
+  "is_published": true,
+  "links": {
+    "access": "https://zenodo.org/api/records/20811713/access",
+    "access_grants": "https://zenodo.org/api/records/20811713/access/grants",
+    "access_links": "https://zenodo.org/api/records/20811713/access/links",
+    "access_request": "https://zenodo.org/api/records/20811713/access/request",
+    "access_users": "https://zenodo.org/api/records/20811713/access/users",
+    "archive": "https://zenodo.org/api/records/20811713/files-archive",
+    "archive_media": "https://zenodo.org/api/records/20811713/media-files-archive",
+    "communities": "https://zenodo.org/api/records/20811713/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/20811713/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.20811713",
+    "draft": "https://zenodo.org/api/records/20811713/draft",
+    "file_modification": "https://zenodo.org/api/records/20811713/file-modification",
+    "files": "https://zenodo.org/api/records/20811713/files",
+    "latest": "https://zenodo.org/api/records/20811713/versions/latest",
+    "latest_html": "https://zenodo.org/records/20811713/latest",
+    "media_files": "https://zenodo.org/api/records/20811713/media-files",
+    "parent": "https://zenodo.org/api/records/11390344",
+    "parent_doi": "https://doi.org/10.5281/zenodo.11390344",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.11390344",
+    "parent_html": "https://zenodo.org/records/11390344",
+    "preview_html": "https://zenodo.org/records/20811713?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/20811713/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/20811713/request-deletion",
+    "requests": "https://zenodo.org/api/records/20811713/requests",
+    "reserve_doi": "https://zenodo.org/api/records/20811713/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/20811713",
+    "self_doi": "https://doi.org/10.5281/zenodo.20811713",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20811713",
+    "self_html": "https://zenodo.org/records/20811713",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20811713/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20811713/sequence/default",
+    "versions": "https://zenodo.org/api/records/20811713/versions"
+  },
+  "media_files": {
+    "count": 0,
+    "enabled": false,
+    "entries": {},
+    "order": [],
+    "total_bytes": 0
+  },
+  "metadata": {
+    "copyright": "Copyright (C) 2026 The Authors.",
+    "creators": [
+      {
+        "affiliations": [
+          {
+            "id": "02yrs2n53",
+            "identifiers": [
+              {
+                "identifier": "02yrs2n53",
+                "scheme": "ror"
+              },
+              {
+                "identifier": "grid.15078.3b",
+                "scheme": "grid"
+              },
+              {
+                "identifier": "0000 0000 9397 8745",
+                "scheme": "isni"
+              }
+            ],
+            "name": "Constructor University"
+          },
+          {
+            "id": "edmo:5403",
+            "identifiers": [
+              {
+                "identifier": "edmo:5403",
+                "scheme": "edmo"
+              }
+            ],
+            "name": "Helmholtz-Zentrum Hereon GmbH"
+          }
+        ],
+        "person_or_org": {
+          "family_name": "To",
+          "given_name": "Sze Wing",
+          "identifiers": [
+            {
+              "identifier": "0000-0003-3410-3385",
+              "scheme": "orcid"
+            }
+          ],
+          "name": "To, Sze Wing",
+          "type": "personal"
+        },
+        "role": {
+          "id": "contactperson",
+          "title": {
+            "de": "Kontaktperson",
+            "en": "Contact person"
+          }
+        }
+      },
+      {
+        "affiliations": [
+          {
+            "id": "019w00969",
+            "identifiers": [
+              {
+                "identifier": "019w00969",
+                "scheme": "ror"
+              },
+              {
+                "identifier": "grid.461729.f",
+                "scheme": "grid"
+              },
+              {
+                "identifier": "0000 0001 0215 3324",
+                "scheme": "isni"
+              }
+            ],
+            "name": "Leibniz Centre for Tropical Marine Research"
+          }
+        ],
+        "person_or_org": {
+          "family_name": "Chakraborty",
+          "given_name": "Subhendu",
+          "identifiers": [
+            {
+              "identifier": "0000-0002-2904-9313",
+              "scheme": "orcid"
+            }
+          ],
+          "name": "Chakraborty, Subhendu",
+          "type": "personal"
+        },
+        "role": {
+          "id": "supervisor",
+          "title": {
+            "de": "SupervisorIn",
+            "en": "Supervisor"
+          }
+        }
+      },
+      {
+        "affiliations": [
+          {
+            "id": "04z8jg394",
+            "identifiers": [
+              {
+                "identifier": "04z8jg394",
+                "scheme": "ror"
+              },
+              {
+                "identifier": "grid.23731.34",
+                "scheme": "grid"
+              },
+              {
+                "identifier": "0000 0000 9195 2461",
+                "scheme": "isni"
+              }
+            ],
+            "name": "Helmholtz Centre Potsdam - GFZ German Research Centre for Geosciences"
+          },
+          {
+            "id": "edmo:4884",
+            "identifiers": [
+              {
+                "identifier": "edmo:4884",
+                "scheme": "edmo"
+              }
+            ],
+            "name": "Leibniz Centre for Tropical Marine Research"
+          }
+        ],
+        "person_or_org": {
+          "family_name": "Acevedo-Trejos",
+          "given_name": "Esteban",
+          "identifiers": [
+            {
+              "identifier": "0000-0003-4222-7062",
+              "scheme": "orcid"
+            }
+          ],
+          "name": "Acevedo-Trejos, Esteban",
+          "type": "personal"
+        },
+        "role": {
+          "id": "supervisor",
+          "title": {
+            "de": "SupervisorIn",
+            "en": "Supervisor"
+          }
+        }
+      },
+      {
+        "affiliations": [
+          {
+            "id": "00pc48d59",
+            "identifiers": [
+              {
+                "identifier": "00pc48d59",
+                "scheme": "ror"
+              },
+              {
+                "identifier": "grid.418656.8",
+                "scheme": "grid"
+              },
+              {
+                "identifier": "0000 0001 1551 0562",
+                "scheme": "isni"
+              }
+            ],
+            "name": "Swiss Federal Institute of Aquatic Science and Technology"
+          }
+        ],
+        "person_or_org": {
+          "family_name": "Pomati",
+          "given_name": "Francesco",
+          "identifiers": [
+            {
+              "identifier": "0000-0002-9746-3735",
+              "scheme": "orcid"
+            }
+          ],
+          "name": "Pomati, Francesco",
+          "type": "personal"
+        },
+        "role": {
+          "id": "datacollector",
+          "title": {
+            "de": "DatensammlerIn",
+            "en": "Data collector"
+          }
+        }
+      },
+      {
+        "affiliations": [
+          {
+            "id": "019w00969",
+            "identifiers": [
+              {
+                "identifier": "019w00969",
+                "scheme": "ror"
+              },
+              {
+                "identifier": "grid.461729.f",
+                "scheme": "grid"
+              },
+              {
+                "identifier": "0000 0001 0215 3324",
+                "scheme": "isni"
+              }
+            ],
+            "name": "Leibniz Centre for Tropical Marine Research"
+          }
+        ],
+        "person_or_org": {
+          "family_name": "Merico",
+          "given_name": "Agostino",
+          "identifiers": [
+            {
+              "identifier": "0000-0001-8095-8056",
+              "scheme": "orcid"
+            }
+          ],
+          "name": "Merico, Agostino",
+          "type": "personal"
+        },
+        "role": {
+          "id": "supervisor",
+          "title": {
+            "de": "SupervisorIn",
+            "en": "Supervisor"
+          }
+        }
+      }
+    ],
+    "dates": [
+      {
+        "date": "2024-08-29",
+        "type": {
+          "id": "submitted",
+          "title": {
+            "de": "Eingereicht",
+            "en": "Submitted"
+          }
+        }
+      },
+      {
+        "date": "2026-06-23",
+        "type": {
+          "id": "accepted",
+          "title": {
+            "de": "Angenommen",
+            "en": "Accepted"
+          }
+        }
+      }
+    ],
+    "description": "<p>Here we provide all codes and datasets used in the associated publication, see the below list (Please see https://github.com/systemsecologygroup/TempSizeMod for a structured directory).&nbsp;</p>\n<p>&nbsp;</p>\n<p><strong>Data processing codes for producing model input include:</strong></p>\n<ul>\n<li>time-averaged Plankton data (TSM_PlanktonData.py)</li>\n<li>Mixed layer depth (TSM_MLDForcing.py)</li>\n<li>PAR (TSM_PARForcing.py)</li>\n<li>Temperature (TSM_TempForcing.py)</li>\n</ul>\n<p><strong>Model codes for producing model output include:</strong></p>\n<ul>\n<li>Coded model (FinalMod_Sbm.py)</li>\n<li>Model run script (FinalMod_run.py)</li>\n<li>Projection script (FinalMod_proj.py)</li>\n</ul>\n<p>&nbsp;</p>\n<p><em>* For access of below files please refer to the previous published version https://doi.org/10.5281/zenodo.14802352</em></p>\n<p><strong>Model input include:</strong></p>\n<p>- Raw data (RawData_XX.csv)</p>\n<ul>\n<li>Temp+PAR.csv</li>\n<li>MLD.csv</li>\n<li>Greifensee size and abundance data of plankton</li>\n</ul>\n<p>- Forcing data (ForcData_XX.csv)<br>(Forcing data are created from RawData, the scripts are provided in https://github.com/systemsecologygroup/TempSizeMod)</p>\n<ul>\n<li>Lake water surface temperature (LWST)</li>\n<li>Photosynthetically-active Radiance (PAR)</li>\n<li>Mixed Layer Depth (MLD); also obtainable from <a href=\"https://doi.org/10.5281/zenodo.3582838\" rel=\"nofollow\">https://doi.org/10.5281/zenodo.3582838</a></li>\n</ul>\n<p>- Plankton data</p>\n<ul>\n<li>Raw plankton size and abundance (raw_NPdata.csv)\n<ul>\n<li>time-series data from 13-03-2019 to 31-12-2022</li>\n<li>contains phosphate concentration (&micro;g/L), phytoplankton abundances, phytoplankton bio-area, zooplankton abundances, zooplankton bio-area, and zooplankton minimum and maximum axis length</li>\n</ul>\n</li>\n<li>Transformed plankton size and abundance for model calibrations (PlanktData4Calibr.csv)\n<ul>\n<li>a composite dataset after transforming plankton abundance to biomass concentration and plankton bio-area to biovolume</li>\n</ul>\n</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Model output (results taken from the 10th year run) include:</strong></p>\n<ul>\n<li>Model results from projection (result_Std+Proj.nc)</li>\n<li>Model results from sensitivity tests (result_Sensit.nc)</li>\n</ul>\n<p>Here contains two sets of model results, one for the projection of future RCP scenarios ('Std+Proj.nc') and one for sensitivity test ('Sensit.nc') over thermal traits (i.e. thermal optima and thermal tolerance) in the standard and RCP scenarios.</p>\n<p>&nbsp;</p>\n<p>----------------------- Proj.nc -----------------------<br>This file stores the output data from the projection, and is saved as a multi-dimensional dataset in a netCDF file. The dataset contains nutrient fluxes ('Nut'), phytoplankton biomass ('Phy';&nbsp;Pi,&nbsp;i=1,2,..,10) and zooplankton biomass ('Zoo';&nbsp;Zj,&nbsp;j=1,2) data of each size class from day 3285 to day 3650, on the 10th year of the simulation. This is a time range after the spin-up stage of the model.</p>\n<p>To extract the data, one could use the netCDF4 library in python (<a href=\"https://unidata.github.io/netcdf4-python/\" rel=\"nofollow\">https://unidata.github.io/netcdf4-python/</a>). Detailed codes are shown in https://github.com/systemsecologygroup/TempSizeMod</p>\n<p>The coordinates (dimensions) of the 'Phy' dataset are as below:<br>'time': '365 days',<br>'PhySize': '10 phytoplankton size classes ranged from 1 to 200&micro;m ESD',<br>'RCP': '4 different climate change scenarios considered by IPCC: RCP 2.6; RCP 6.0; and RCP 8.5'<br><br>The coordinates (dimensions) of the 'Zoo' dataset are as below:<br>'time': '365 days',<br>'ZooSize': '2 zooplankton size classes at 20 and 600&micro;m ESD',<br>'RCP': '4 different climate change scenarios considered by IPCC: RCP 2.6; RCP 6.0; and RCP 8.5'<br><br>The coordinates (dimensions) of the 'Nut' dataset are as below:<br>'time': '365 days',<br>'RCP': '4 different climate change scenarios considered by IPCC: RCP 2.6; RCP 6.0; and RCP 8.5'</p>\n<p>&nbsp;</p>\n<p>----------------------- Sensit.nc -----------------------<br>This file stores the output data from the sensitivity test, and is saved as a multi-dimensional dataset in a netCDF file. The dataset contains nutrient fluxes ('Nut'), phytoplankton biomass ('Phy'; Pi, i=1,2,..,10) and zooplankton biomass ('Zoo'; Zj, j=1,2) data of each size class from day 0 to day 3650. For analyses, we used data from the last year, after the model is spinned-up, hence, day 3285 to 3650.</p>\n<p>The coordinates (dimensions) of the 'Phy' dataset are as below:<br>'time': '365 days',<br>'PhySize': '10 phytoplankton size classes ranged from 1 to 200&micro;m ESD',<br>'RCP': '4 different climate change scenarios considered by IPCC: RCP 2.6; RCP 6.0; and RCP 8.5',<br>'Sensit': '4 different configurations on thermal traits to test their sensitivities in climate change scenarios considered by IPCC: RCP 2.6; RCP 6.0; and RCP 8.5'<br><br>The coordinates (dimensions) of the 'Zoo' dataset are as below:<br>'time': '365 days',<br>'ZooSize': '2 zooplankton size classes at 20 and 600&micro;m ESD',<br>'RCP': '4 different climate change scenarios considered by IPCC: RCP 2.6; RCP 6.0; and RCP 8.5',<br>'Sensit': '4 different configurations on thermal traits to test their sensitivities in climate change scenarios considered by IPCC: RCP 2.6; RCP 6.0; and RCP 8.5'<br><br>The coordinates (dimensions) of the 'Nut' dataset are as below:<br>'time': '365 days',<br>'RCP': '4 different climate change scenarios considered by IPCC: RCP 2.6; RCP 6.0; and RCP 8.5',<br>'Sensit': '4 different configurations on thermal traits to test their sensitivities in climate change scenarios considered by IPCC: RCP 2.6; RCP 6.0; and RCP 8.5'</p>\n<p>&nbsp;</p>\n<p>------------ Sensit_+25%.nc &amp; Sensit_-25%.nc ------------<br>This file stores the output data from the sensitivity test (for standard model parameters, n=14), and is saved as a multi-dimensional dataset in a netCDF file. The dataset contains nutrient fluxes ('Nut'), phytoplankton biomass ('Phy'; Pi, i=1,2,..,10) and zooplankton biomass ('Zoo'; Zj, j=1,2) data of each size class from day 0 to day 3650. For analyses, we used data from the last year, after the model is spinned-up, hence, day 3285 to 3650.</p>\n<p>The coordinates (dimensions) of the 'Phy' dataset are as below:<br>'time': '365 days',<br>'PhySize': '10 phytoplankton size classes ranged from 1 to 200&micro;m ESD',<br>'Parameters': '14 different standard model parameters'<br><br>The coordinates (dimensions) of the 'Zoo' dataset are as below:<br>'time': '365 days',<br>'ZooSize': '2 zooplankton size classes at 20 and 600&micro;m ESD',<br>'Parameters': '14 different standard model parameters'<br><br>The coordinates (dimensions) of the 'Nut' dataset are as below:<br>'time': '365 days',<br>'Parameters': '14 different standard model parameters'</p>\n<p>&nbsp;</p>\n<p>--------------------- LakeMix_futMLD.nc ---------------------</p>\n<p>This file stores the output data from the sensitivity run for the future MLD (i.e., longer lake stratification period), and is saved as a multi-dimensional dataset in a netCDF file. The run is only conducted for the worst warming scenrio, RCP 8.5. The dataset contains nutrient fluxes ('Nut'), phytoplankton biomass ('Phy'; Pi, i=1,2,..,10) and zooplankton biomass ('Zoo'; Zj, j=1,2) data of each size class from day 3285 to day 3650, on the 10th year of the simulation. This is a time range after the spin-up stage of the model.</p>\n<p>The coordinates (dimensions) of the 'Phy' dataset are as below:<br>'time': '365 days',<br>'PhySize': '10 phytoplankton size classes ranged from 1 to 200&micro;m ESD',<br><br>The coordinates (dimensions) of the 'Zoo' dataset are as below:<br>'time': '365 days',<br>'ZooSize': '2 zooplankton size classes at 20 and 600&micro;m ESD',<br><br>The coordinates (dimensions) of the 'Nut' dataset are as below:<br>'time': '365 days',</p>\n<p>--------------------- LakeMix_k=0.05.nc ---------------------</p>\n<p>This file stores the output data from the sensitivity run for a reduced lake diffusive mixing coefficient (k), and is saved as a multi-dimensional dataset in a netCDF file. The run is only conducted for the worst warming scenrio, RCP 8.5. The dataset contains nutrient fluxes ('Nut'), phytoplankton biomass ('Phy'; Pi, i=1,2,..,10) and zooplankton biomass ('Zoo'; Zj, j=1,2) data of each size class from day 3285 to day 3650, on the 10th year of the simulation. This is a time range after the spin-up stage of the model.</p>\n<p>The coordinates (dimensions) of the 'Phy' dataset are as below:<br>'time': '365 days',<br>'PhySize': '10 phytoplankton size classes ranged from 1 to 200&micro;m ESD',<br><br>The coordinates (dimensions) of the 'Zoo' dataset are as below:<br>'time': '365 days',<br>'ZooSize': '2 zooplankton size classes at 20 and 600&micro;m ESD',<br><br>The coordinates (dimensions) of the 'Nut' dataset are as below:<br>'time': '365 days'</p>\n<p>&nbsp;</p>",
+    "funding": [
+      {
+        "award": {
+          "number": "412375259",
+          "title": {
+            "en": "Aquascope"
+          }
+        },
+        "funder": {
+          "id": "018mejw64",
+          "name": "Deutsche Forschungsgemeinschaft"
+        }
+      }
+    ],
+    "languages": [
+      {
+        "id": "eng",
+        "title": {
+          "en": "English"
+        }
+      }
+    ],
+    "publication_date": "2026-06-23",
+    "publisher": "Zenodo",
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/systemsecologygroup/TempSizeMod",
+        "relation_type": {
+          "id": "issupplementto",
+          "title": {
+            "de": "Erg\u00e4nzt",
+            "en": "Is supplement to"
+          }
+        },
+        "resource_type": {
+          "id": "model",
+          "title": {
+            "de": "Modell",
+            "en": "Model"
+          }
+        },
+        "scheme": "url"
+      }
+    ],
+    "resource_type": {
+      "id": "publication-article",
+      "title": {
+        "de": "Zeitschriftenartikel",
+        "en": "Journal article"
+      }
+    },
+    "rights": [
+      {
+        "description": {
+          "en": "The Creative Commons Attribution license allows re-distribution and re-use of a licensed work on the condition that the creator is appropriately credited."
+        },
+        "icon": "cc-by-icon",
+        "id": "cc-by-4.0",
+        "props": {
+          "scheme": "spdx",
+          "url": "https://creativecommons.org/licenses/by/4.0/legalcode"
+        },
+        "title": {
+          "en": "Creative Commons Attribution 4.0 International"
+        }
+      }
+    ],
+    "subjects": [
+      {
+        "subject": "Phytoplankton"
+      },
+      {
+        "subject": "Temperature"
+      },
+      {
+        "subject": "Lake ecosystem"
+      }
+    ],
+    "title": "Future warming reshapes inorganic nutrient and plankton dynamics in a temperate lake",
+    "version": "v3"
+  },
+  "parent": {
+    "access": {
+      "grants": [],
+      "links": [],
+      "owned_by": {
+        "user": "281193"
+      },
+      "settings": {
+        "accept_conditions_text": null,
+        "allow_guest_requests": false,
+        "allow_user_requests": false,
+        "secret_link_expiration": 0
+      }
+    },
+    "communities": {},
+    "id": "11390344",
+    "pids": {
+      "doi": {
+        "client": "datacite",
+        "identifier": "10.5281/zenodo.11390344",
+        "provider": "datacite"
+      }
+    }
+  },
+  "pids": {
+    "doi": {
+      "client": "datacite",
+      "identifier": "10.5281/zenodo.20811713",
+      "provider": "datacite"
+    },
+    "oai": {
+      "identifier": "oai:zenodo.org:20811713",
+      "provider": "oai"
+    }
+  },
+  "revision_id": 12,
+  "stats": {
+    "all_versions": {
+      "data_volume": 796062307.0,
+      "downloads": 547,
+      "unique_downloads": 533,
+      "unique_views": 109,
+      "views": 128
+    },
+    "this_version": {
+      "data_volume": 0.0,
+      "downloads": 0,
+      "unique_downloads": 0,
+      "unique_views": 3,
+      "views": 9
+    }
+  },
+  "status": "published",
+  "swh": {},
+  "updated": "2026-06-24T11:31:07.701677+00:00",
+  "versions": {
+    "index": 3,
+    "is_latest": true,
+    "is_latest_draft": true
+  }
+}
